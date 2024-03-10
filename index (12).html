@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Option</title>
+<style>
+/* Navbar UI */
+.navbar {
+  background-color: black; /* Set background color to dark black */
+  color: #fff;
+  padding: 20px;
+  text-align: left; /* Center align the text */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.logo {
+  font-size: 36px; /* Increase font size */
+  font-weight: bold; /* Make text bolder */
+  color: #fff;
+  white-space: nowrap; /* Prevent text wrapping */
+  display: inline-block; /* Make it inline block to center align */
+}
+
+
+  /* Body UI */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.918); /* Darker transparent background */
+  }
+
+  /* Container UI */
+  .container {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker transparent background */
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .logo-box {
+    margin: 50px;
+    text-align: center;
+  }
+
+  .logo-box img {
+    width: 90px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* Download Option UI */
+  .download-option {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 40px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+    margin-top: 40px; /* Adjusted margin from the top */
+    margin-bottom: 20px; /* Added margin from the bottom */
+  }
+
+  .info {
+    color: #fff;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 25px;
+  }
+
+  .info h3,
+  .info p {
+    margin: 5px 0;
+  }
+
+  .download-link {
+    text-decoration: none;
+  }
+
+  .green-box {
+    width: 45px;
+    height: 45px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer; /* Change cursor to pointer */
+  }
+
+  .arrow-icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">Nezus Hub</div>
+</div>
+
+<!-- Container -->
+<div class="container">
+  <div class="logo-container">
+    <div class="logo-box">
+      <a href="https://www.paypal.com/paypalme/soufgameyt" target="_blank">
+        <img src="https://www.edigitalagency.com.au/wp-content/uploads/PayPal-logo-white-png-vertical.png" alt="PayPal">
+      </a>
+    </div>
+    <div class="logo-box">
+      <a href="https://discord.gg/nezushub" target="_blank">
+        <img src="https://static-00.iconduck.com/assets.00/discord-icon-2048x1570-y371emu6.png" alt="Discord">
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Esign download option -->
+<div class="download-option">
+  <img src="https://esign.yyyue.xyz/ESignLogo200.png" alt="Download Logo" class="logo" style="margin-right: 20px;">
+  <div class="info">
+    <h3>Esign</h3>
+    <p>IPA Signer</p>
+  </div>
+  <div class="green-box" onclick="openEsignDownloadLink()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+      <path d="M0 0h24v24H0z" fill="none"/>
+    </svg>
+  </div>
+</div>
+
+<!-- Scarlet download option -->
+<div class="download-option">
+  <img src="https://usescarletapp.com/wp-content/uploads/2023/05/icon.png" alt="Download Logo" class="logo" style="margin-right: 20px;">
+  <div class="info">
+    <h3>Scarlet</h3>
+    <p>IPA Signer</p>
+  </div>
+  <div class="green-box" onclick="openScarletDownloadLink()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+      <path d="M0 0h24v24H0z" fill="none"/>
+    </svg>
+  </div>
+</div>
+
+<script>
+  function openEsignDownloadLink() {
+    window.open("https://www.mediafire.com/file/a4ad1suk8jyyvfn/Esign.ipa/file", "_blank");
+  }
+
+  function openScarletDownloadLink() {
+    window.open("https://www.mediafire.com/file/q4s2rmnjaqzqsub/ScarletAlpha.ipa/file", "_blank");
+  }
+</script>
+
+</body>
+</html>
+
+
